@@ -268,6 +268,31 @@ print(lista1)
 print(lista2)
 print("Alumnos muy buenos: "+str(muy_bueno))
 
-Buscar ejercicio -------49-------
+
+
+Desempeño 49
+• Realizar un programa que pida la carga de dos listas numéricas enteras de 4 elementos cada
+una. Generar una tercer lista que surja de la suma de los elementos de la misma posición de cada
+lista. Mostrar esta tercer lista
+
+
+lista_1=[]
+lista_2=[]
+lista_3=[]
+
+for i in range(4):
+    num = int(input("Ingresar num: "))
+    lista_1.append(num)
+for x in range(4):
+    num = int(input("Ingresar num_lista_2: "))
+    lista_2.append(num)
+print(lista_1)
+print(lista_2)
+
+for y in range(len(lista_1)):
+
+    suma = lista_1[y]+lista_2[y]
+    lista_3.append(suma)
+print(lista_3)
 
 """
